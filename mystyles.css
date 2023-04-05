@@ -133,3 +133,6 @@ body{
 .lkid:hover{
     text-decoration: underline;
 }
+table input{
+    cursor: pointer;
+}

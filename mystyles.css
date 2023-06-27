@@ -136,3 +136,38 @@ body{
 table input{
     cursor: pointer;
 }
+/* Media query for screens with a maximum width of 768px */
+@media screen and (max-width: 768px) {
+    body {
+        background: linear-gradient(90deg, blueviolet, pink);
+    }
+    
+    #d1 {
+        width: 100%;
+        height: auto;
+    }
+    
+    #d2 {
+        width: 90%;
+        height: auto;
+    }
+    
+    #display {
+        width: 90%;
+    }
+    
+    .change {
+        width: 20%;
+        height: 2rem;
+        font-size: 16px;
+    }
+    
+    #foot {
+        height: auto;
+    }
+    
+    .details p {
+        padding-top: 20px;
+    }
+}
+
